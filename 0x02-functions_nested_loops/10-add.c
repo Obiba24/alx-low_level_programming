@@ -1,16 +1,15 @@
 #include "main.h"
 
 /**
- * print_alphabet - Print the alphabet in lowercase
- */
+* add - adds two integers
+*
+* @a: number
+* @b: number
+*
+* Return: the sum of two integers
+*/
 
-void print_alphabet(void)
+int add(int a, int b)
 {
-	int letter;
-
-	for (letter = 'a'; letter <= 'z'; letter++)
-	{
-		_putchar(letter);
-	}
-	_putchar('\n');
+	return (a + b);
 }
